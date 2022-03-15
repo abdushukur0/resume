@@ -211,6 +211,7 @@ body {
 
 .resume .resume_right .resume_work ul .work-list {
   padding-left: 15px;
+  font-weight: 500;
 }
 
 .resume .resume_right .resume_work ul .work-list li::before {
@@ -220,7 +221,7 @@ body {
   height: 6px;
   border-radius: 50%;
   top: 7px;
-  background-color: rgb(228, 232, 28);
+  background-color: #0bb5f4;
   position: absolute;
   left: -15px;
 }
