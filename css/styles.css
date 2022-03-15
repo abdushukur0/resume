@@ -209,6 +209,22 @@ body {
   overflow: hidden;
 }
 
+.resume .resume_right .resume_work ul .work-list {
+  padding-left: 15px;
+}
+
+.resume .resume_right .resume_work ul .work-list li::before {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  top: 7px;
+  background-color: rgb(228, 232, 28);
+  position: absolute;
+  left: -15px;
+}
+
 .resume .resume_right ul li {
   position: relative;
 }
@@ -227,7 +243,7 @@ body {
   margin-bottom: 0;
 }
 
-.resume .resume_right .resume_work ul li:before,
+.resume .resume_right .resume_work .work-expearence-list .li:before,
 .resume .resume_right .resume_education ul li:before {
   content: "";
   position: absolute;
@@ -238,8 +254,10 @@ body {
   border-radius: 50%;
   border: 2px solid #0bb5f4;
 }
-
-.resume .resume_right .resume_work ul li:after,
+.info p {
+  margin-bottom: 5px;
+}
+.resume .resume_right .resume_work .work-expearence-list .li:after,
 .resume .resume_right .resume_education ul li:after {
   content: "";
   position: absolute;
@@ -250,7 +268,7 @@ body {
   background: #0bb5f4;
 }
 
-.resume .resume_right .resume_work ul li:after {
+.resume .resume_right .resume_work .work-expearence-list .li:after {
   height: calc(100% + 13px);
 }
 
